@@ -9,3 +9,8 @@ export interface FileNode {
   path: string;
   children?: FileNode[];
 }
+
+export interface SelectedFile {
+  nodeName: string;
+  nodePath: string;
+}

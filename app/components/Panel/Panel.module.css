@@ -2,4 +2,5 @@
   width: 300px;
   border-right: 1px solid var(--border-color);
   padding: 20px;
+  overflow: scroll;
 }

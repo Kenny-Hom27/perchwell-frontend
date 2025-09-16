@@ -8,3 +8,7 @@
   cursor: pointer;
   gap: 4px;
 }
+
+.fileTreeName {
+  white-space: nowrap;
+}
