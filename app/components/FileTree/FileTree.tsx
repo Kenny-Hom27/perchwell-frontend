@@ -74,13 +74,12 @@ export default function FileTree({
 
       {expanded &&
         node.children?.map((child) => (
-          <div key={child.path} className={styles.childNode}>
-            <FileTree
-              node={child}
-              selectedFile={selectedFile}
-              handleFileClick={handleFileClick}
-            />
-          </div>
+          <FileTree
+            key={child.path}
+            node={child}
+            selectedFile={selectedFile}
+            handleFileClick={handleFileClick}
+          />
         ))}
     </div>
   );
